@@ -1,0 +1,43 @@
+form {
+  display:inline-block;
+  font-size:26px;
+  font-family:'Comic Sans MS';
+  background-color:aqua;
+  color:whitesmoke;
+}
+
+body {
+  background-color: white;
+  background-size: cover;
+}
+
+
+/* Add styles to the form container */
+.container {
+  display: inline-block;
+  margin: 20px;
+  max-width: 500px;
+  padding: 100px;
+  background-color: midnightblue;
+  float: inherit;
+  position:relative;
+  top:-45px;
+}
+
+
+/* Set a style for the  button */
+.btn {
+  background-color: hotpink;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+

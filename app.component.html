@@ -1,0 +1,74 @@
+<body>
+  <div class="header">
+    <pre>
+    <h1>Add Story Info</h1><p align="right"><input type="button" class="btn" value="Cancel" align="right" />&nbsp;<input type="submit" class="btn" value="Save" align="right" /></p>
+    </pre>
+  </div>
+  <img src="./assets/genre.jpg" alt="Genres" style="float:right;display:inline-block" />
+
+  <div class="for" style="display:inline-block">
+
+    <form name="writing-area" class="container">
+      <img src="./assets/book.jpg" style="float:right" alt="Book image" />
+      <div class="required-form-wrapper">
+        <div class="form-group title-form">
+          <label>Title<sup>*</sup></label><br>
+          <input type="text" placeholder="Untitled Story" name="TITLE" />
+          <br><br>
+        </div>
+
+        <div class="form-group description-form">
+          <label>Description<sup>*</sup></label><br>
+          <textarea type="text" name="DESCRIPTION" placeholder="Add a story description"></textarea>
+          <br><br>
+        </div>
+
+        <div class="form-group characters-form">
+          <label>Main Characters</label><br>
+          <input type="text" name="MAINCHARACTERS" placeholder="Who are your Main Characters?" />
+          <br><br>
+        </div>
+
+        <div class="form-group inline-form">
+          <div class="form-wrapper">
+            <label for="categoryselect">Genre<sup>*</sup></label>
+            <select id="categoryselect" class="form-control ">
+              <option value="-1">Select a genre</option>
+              <option value="1">Action</option>
+              <option value="2">Horror</option>
+              <option value="3">Humor</option>
+              <option value="4">Science Fiction</option>
+              <option value="5">Short Story</option>
+            </select>
+            <br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group target-audience-form">
+        <div class="form-wrapper">
+          <label for="target-audience">Target Audience<sup>*</sup></label>
+          <select id="target-audience" class="form-control ">
+            <option selected="1" disabled="disabled">Who is your primary audience?</option>
+            <option value="8-13">Middle Grade (8-13 years of age)</option>
+            <option value="13-18">Young Adult (13-18 years of age)</option>
+            <option value="18-25">New Adult (18-25 years of age)</option>
+            <option value="25+">Adult (25+ years of age)</option>
+          </select>
+          <br><br>
+        </div>
+      </div>
+
+      <div class="inline-form-wrapper">
+        <label>Language<sup>*</sup></label>
+        <select id="languageselect" class="form-control ">
+          <option value="1" selected="selected">English</option>
+          <option value="2">Hindi</option>
+          <option value="3">Telugu</option>
+          <option value="4">Spanish</option>
+          <option value="5">Other</option>
+        </select>
+      </div>
+    </form>
+  </div>
+</body>
